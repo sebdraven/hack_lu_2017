@@ -1,0 +1,6 @@
+ipython
+notebook
+numpy
+scipy
+sklearn
+redis
