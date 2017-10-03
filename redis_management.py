@@ -10,5 +10,5 @@ class RedisManagement:
             }
         self.redis_client = StrictRedis(host=hostname, db=self.redis_table[name_of_table])
 
-    def record_vector(self,sha256,name_of_vector,vector_malware):
-        self.redis_client.hset(sha256, name_of_vector,vector_malware)
+    def record_vector(self, sha256, name_of_vector, vector_malware):
+        self.redis_client.hset(sha256, name_of_vector, vector_malware)
