@@ -6,3 +6,4 @@ sklearn
 redis
 ssdeep
 python-magic
+ipywidgets
