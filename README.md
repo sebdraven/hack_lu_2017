@@ -2,7 +2,6 @@ Python and Machine Learning: How to clusterize a malware dataset ?
 ======================================
 
 This repository is the summary of the workshop at Hack.lu 2017 about machine learning and malwares
-
 #Setup your environment
 
 * Install python 3.5
