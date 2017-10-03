@@ -4,3 +4,5 @@ numpy
 scipy
 sklearn
 redis
+ssdeep
+python-magic

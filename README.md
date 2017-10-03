@@ -20,7 +20,20 @@ Setup your environment
 
 * Install dependencies
 
-`pip install -r requierments.txt` 
+`pip install -r requierments.txt`
+
+`git clone https://github.com/sebdraven/pe-parse.git`
+
+`cd pe-parse/python`
+
+`python3.5 setup.py install`
+
+`git clone https://github.com/sebdraven/petojson.git`
+
+`cd petojson`
+
+`python3.5 setup.py install`
+ 
 
 Run your environment
 ====================
