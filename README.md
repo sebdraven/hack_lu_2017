@@ -22,4 +22,15 @@ Setup your environment
 
 `pip install -r requierments.txt` 
 
+Run your environment
+====================
+
+`git clone https://github.com/sebdraven/hack_lu_2017.git`
+
+`cd hack_lu_2017`
+
+`ipython notebook`
+
+
+
  
