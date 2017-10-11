@@ -42,7 +42,9 @@ Install the dataset
 
 
 * Unzip all .zip
+
 `cd theZoo`
+
 `find . -name '*.zip' -exec sh -c 'unzip -P infected -o -d "${0%.*}" "$0"' '{}' ';'`
 
 
