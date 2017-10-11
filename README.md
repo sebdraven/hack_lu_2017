@@ -33,7 +33,18 @@ Setup your environment
 `cd petojson`
 
 `python3.5 setup.py install`
- 
+
+Install the dataset
+===================
+
+* clone theZoo malware dataset
+`git clone https://github.com/ytisf/theZoo.git`
+
+
+* Unzip all .zip
+`cd theZoo`
+`find . -name '*.zip' -exec sh -c 'unzip -P infected -o -d "${0%.*}" "$0"' '{}' ';'`
+
 
 Run your environment
 ====================
