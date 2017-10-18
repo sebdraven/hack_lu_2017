@@ -6,9 +6,9 @@ This repository is the summary of the workshop at Hack.lu 2017 about machine lea
 Setup your environment
 ======================
 
-* Install python 3.5
+* Install python and libraries
 
-* Install redis database
+`sudo apt python3.5 python3.5-dev python3.5-pip python3.5-virtualenv libpython3.5-dev libfuzzy-dev libffi-dev redis-server`
 
 * Create a virtual env
 
@@ -20,7 +20,7 @@ Setup your environment
 
 * Install dependencies
 
-`pip install -r requierments.txt`
+`pip install -r requirements.txt`
 
 `git clone https://github.com/sebdraven/pe-parse.git`
 
